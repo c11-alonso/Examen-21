@@ -37,14 +37,19 @@ costos = [20, 35, 50]
 # ETAPA 2 - NAVEGACIÓN
 print ("las opciones de viajes son luna, marte y saturno")
 destino = input("elegi un destino")
-if destino == luna:
+if destino == "luna":
     print ("el combustible necesario es 20")
     print ("el viaje se realizó correctamente, el combustible restante es 80")
 else:
     print ("el combustible es insuficiente")
-if destino == marte:
+if destino == "marte":
     print ("el combustible necesario es 35")
     print ("el viaje se realizo correctamente sobro 65")
+else:
+    print ("el combustible es insuficiente")
+if destino == "saturno":
+    print ("el combustible necesario es 50 ")
+    print ("el viaje se realizo correctamente sobro 50")
 else:
     print ("el combustible es insuficiente")
 # =========================
