@@ -47,7 +47,6 @@ if destino == marte:
     print ("el viaje se realizo correctamente sobro 65")
 else:
     print ("el combustible es insuficiente")
-    
 # =========================
 
 # Mostrar el menú y procesar la opción seleccionada.
